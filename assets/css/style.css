@@ -2514,6 +2514,8 @@ li {
   background-position: center;
   background-attachment: fixed;
   z-index: 1;
+  /* background: rgba(255, 255, 255, 0.6)!important;  */
+  /* backdrop-filter: blur(8px);   */
 }
 .overlay {
   position: relative;
@@ -7003,7 +7005,8 @@ button[type="submit"] .loading {
   background-image: url("http://www.industriall-union.org/sites/default/files/styles/article_top_image_w1440/public/uploads/images/General-pics/meeting_russia4.jpg?itok=jzsPnJqB");
 }
 .bg1.overlay:before {
-  opacity: 0.9;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
 }
 .bg4.overlay:before {
   background-color: #282f43;
