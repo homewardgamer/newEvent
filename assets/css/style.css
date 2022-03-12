@@ -7286,8 +7286,7 @@ button[type="submit"] .loading {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 15vw;
-  
+  padding: 0 15vw;
 }
 .tracks_card{
   background-color: #F4F4F4;
@@ -7295,7 +7294,7 @@ button[type="submit"] .loading {
   min-width: 300px;
   text-align: left;
   padding: 20px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.18);
   border-radius: 8px;
   line-height: 10px;
   margin: 20px;
