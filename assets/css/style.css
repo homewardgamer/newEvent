@@ -7281,3 +7281,31 @@ button[type="submit"] .loading {
   padding-top: 20px;
   margin-left: 10vw;
 }
+.tracks_cards_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15vw;
+  
+}
+.tracks_card{
+  background-color: #F4F4F4;
+  max-width: 380px;
+  min-width: 300px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  line-height: 10px;
+  margin: 20px;
+}
+.tracks_card ul{
+  list-style-type:disc;
+  margin-left: 10px;
+}
+.tracks_card p{
+  line-height: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
