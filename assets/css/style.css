@@ -7273,3 +7273,11 @@ button[type="submit"] .loading {
     width: 100%;
   }
 }
+
+/*2022 css goes here*/
+.video_list{
+  list-style-type:disc;
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 10vw;
+}
