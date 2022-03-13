@@ -83,36 +83,52 @@
 	</section> -->
 
 	<header class="header header-black">
-		<div class="header-wrapper">
-			<div class="container">
-				<div class="col-sm-2 col-xs-12 navigation-header">
-					
-					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-
-				<div class="col-sm-10 col-xs-12 navigation-container">
-					<div id="navigation" class="navbar-collapse collapse">
-						<ul class="navigation-list pull-left light-text">
-							<li class="navigation-item"><a href="#home" class="navigation-link">Home</a></li>
-							<li class="navigation-item"><a href="#videos" class="navigation-link">Videos</a></li>
-							<li class="navigation-item"><a href="#articles" class="navigation-link">Invited Articles</a></li>
-							<li class="navigation-item"><a href="#organizers" class="navigation-link">Organizers</a></li>
-							<li class="navigation-item"><a href="#schedule" class="navigation-link">Schedule</a></li>
-							<li class="navigation-item"><a href="#gallery" class="navigation-link">Gallery</a></li>
-							<!-- <li class="navigation-item"><a href="#prices" class="navigation-link">Prices</a></li> -->
-							<!-- <li class="navigation-item"><a href="#gallery" class="navigation-link">Gallery</a></li> -->
-							<!-- <li class="navigation-item"><a href="#sponsors" class="navigation-link">Organizer</a></li> -->
-							<!-- <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts/More</a></li> -->
-						</ul>
-						<a href="BROCHURE.pdf" class="pull-right buy-btn">Download Brochure</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		<nav id="og_navbar">
+			<input type="checkbox" name="toggle-nav">
+				<label for="toggle-nav">
+					<span class="menu-icon"></span>
+				</label>
+				<section class="side-nav-panel">
+					<section class="nav-profile">
+						<section class="profile-info">
+							<h2>FAP</h2>
+							<p>Important Links</p>
+						</section>
+					</section>
+					<ul class="top-nav">
+						<li><a href="">BROCHURE</a></li>
+						<li><a href="">BACKDROP</a></li>
+						<li><a href="">LOGO</a></li>
+						<li><a href="">FAP ECE</a></li>
+						<li><a href="">FAP IT</a></li>
+						<li><a href="">IMPLEMENTATION</a></li>
+						
+						<li class="parent-item"><a href="#">FLOWS</a>
+							<ul class="submenu">
+								<li><a href="#">STUDENT FLOW</a></li>
+								<li><a href="https://www.google.com/" target="_blank">TEACHERS FLOW</a></li>
+							</ul>
+						</li>
+						<li><a href="#">ADMINISTRATION</a></li>
+						<li><a href="#">CONSORTIUM</a></li>
+						<li><a href="#">SCHEMATIC DIAGRAM</a></li>
+						<li class="parent-item"><a href="#">Links</a>
+							<ul class="submenu">
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- <section class="social-nav social-nav__aside">
+						<a href="#"><i class="fab fa-codepen"></i></a>
+						<a href="#"><i class="fab fa-github"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+						<a href="#"><i class="far fa-envelope"></i></a>
+						
+					</section> -->	
+				</section>
+		</nav>
 	</header>
 
 	<section id="about" class="section align-center">
@@ -122,8 +138,20 @@
 			<!-- <p class="text-alt">Starting your own IT business and picking right niche in less then <span class="highlight">30 days</span></p> -->
 			<br />
 			<br />
-			<div class="container " style="display: flex;justify-content: space-between;">
-				<img src="assets/img/feature_list.jpg">
+			<div class="container feature_list_cont" >
+				<ul class="feature_list" style="text-align: left;">
+					<li>Multi Exit</li>
+					<li>Multi Entry</li>
+					<li>Multidisciplinary</li>
+					<li>Multi-Mode</li>
+					<li>Multi-Institute</li>
+					<li>Lateral Entry</li>
+					<li>Flexible Fee</li>
+					<li>Holistic Approach</li>
+					<li>Multiple Language Medium</li>
+					<li>Continuous Assessment</li>
+				</ul>
+				<!-- <img src="assets/img/feature_list.jpg"> -->
 				<img src="assets/img/fap_logo.jpg">
 			</div>
 			
@@ -153,7 +181,7 @@
 					<div class="counter-block counter-block-no-border">
 						<div class="counter-content">
 							<img src="assets/img/twitter.svg" height="80px">
-							<p class="title">@FAP_for_NEP</p>
+							<a href="https://twitter.com/FAP_for_NEP" class="title" style="color: white;">@FAP_for_NEP</a>
 						</div>
 					</div>
 				
@@ -161,7 +189,7 @@
 					<div class="counter-block counter-block-no-border">
 						<div class="counter-content">
 							<img src="assets/img/mail.svg" height="80px">
-							<a href="mailto:fapis2022@gmail.com" style="color: aliceblue;">fapis2022@gmail.com</a>
+							<a href="mailto:fapis2022@gmail.com" style="color: white;">fapis2022@gmail.com</a>
 							
 						</div>
 					</div>
@@ -228,7 +256,7 @@
 	<section id="speakers" class="section align-center">
 		<div class="container">
 			<!-- <span class="icon section-icon icon-faces-users-04"></span> -->
-			<h4 style="padding-top:0">To avail FAP integrated service, <a>click here!</a></h4>
+			<h4 style="padding-top:0">To avail FAP integrated service, <a href="https://fap.iiita.ac.in/">click here!</a></h4>
 			<!-- <p class="text-alt">Meet our <span class="highlight">professonals</span></p> -->
 			<br>
 			<p style="margin:0 5vw">The proposed post-schooling to Ph.D. Flexible Academic Program (FAP)is designed to allow multiple exits with provisions of re-entry (from the point of exit in the future), along with multi-disciplinary, multi-mode, multi-lingual, lateral entry etc. features of National Education Policy (NEP) 2020.This national conference aims to concretize various business rules related to academics, administration and financial aspects of FAP such that a 4 year pilot run of FAP (initially for technical education) may be conducted through a consortium of institutes/universities w.e.f. the academic year 2022-23. Several renowned institutes/universities,a few key stakeholders and some renowned NEP2020 experts are invited to (preferably) visit IIITA Prayagraj and give inputs for refining FAP.Further, posters/abstracts for effective implementation of NEP2020 in higher education institutes/universities are also invited under 4 different tracks.Someselected posters/abstracts may be included in the proceedings of the conference. Entire academic fraternity (teachers, researchers, staff, officers, students, parents) is the target audience; they may join the conference through the ONLINE platform. The Shiksha Sanskriti Utthan Nyas (SSUN) New Delhi and IEEE UP section have extended non-financial support to the conference and FAP.</p>
@@ -250,41 +278,32 @@
 	</section>
 	<section class="align-center inaugral_session">
 		<div class="container">
-			<span class="icon section-icon icon-office-21"></span>
+			<img src="assets/img/speaker.svg" alt="speaker" height="80px"/>
 			<h4>Individual Videos of the Speakers</h4>
 			<p>
 				<ul class="video_list">
-					<li>FAP panel -1 Consolidated recommendations
-						</li>
-					<li>FAP Panel -2 Consolidated recommendations
-						</li>
-					<li>FAP Panel -3 Consolidated recommendations
-						</li>
-					<li>FAP Panel -4 Consolidated recommendations
-						</li>
-					<li>FAP Panel -5 Consolidated recommendations
-						</li>
-					<li>Explaining FAP to GTU potential
-						</li>
-					<li>5th Sept IIITs Webinar Part I
-						</li>
-					<li>5th Sept IIITs Webinar Part II
-						</li>
-					<li>Roadmap for INI’s March Towards MERU 20201106 1233 1
-						</li>
-					<li>Flexible Academic Program(FAP)-20220210_151203-Meeting Recording</li>
+					<li><a href="https://www.youtube.com">FAP panel -1 Consolidated recommendations</a></li>
+					<li><a href="https://www.youtube.com">FAP Panel -2 Consolidated recommendations</a></li>
+					<li><a href="https://www.youtube.com">FAP Panel -3 Consolidated recommendations</a></li>
+					<li><a href="https://www.youtube.com">FAP Panel -4 Consolidated recommendations</a></li>
+					<li><a href="https://www.youtube.com">FAP Panel -5 Consolidated recommendations</a></li>
+					<li><a href="https://www.youtube.com">Explaining FAP to GTU potential</a></li>
+					<li><a href="https://www.youtube.com">5th Sept IIITs Webinar Part I</a></li>
+					<li><a href="https://www.youtube.com">5th Sept IIITs Webinar Part II</a></li>
+					<li><a href="https://www.youtube.com">Roadmap for INI’s March Towards MERU 20201106 1233 1</a></li>
+					<li><a href="https://www.youtube.com">Flexible Academic Program(FAP)-20220210_151203-Meeting Recording</a></li>
 				</ul>
 			</p>
 			<h3 style="padding-top: 50px;">Inaugral Session</h3>
-			<h5><a style="color: #000; font-weight: 400;">Video Link</a></h5>
+			<h5><a href="https://www.youtube.com/" style="color: #000; font-weight: 400;">Video Link</a></h5>
 			<br />
 			<br />
 			<div class="col-sm-4">
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. K. Chidananda Gowda</h3>
-					<p class="text-alt"><small>Former Vice-Chancellor,</small></p>
 					<p class="about">Kuvempu University, Karnataka.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>
 					
 				</div>
 			</div>
@@ -293,8 +312,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
-					<p class="text-alt"><small>Dean Human Affairs , IIITA</small></p>
 					<p class="about">Ph.D.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -303,8 +322,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Rajbir Singh</h3>
-					<p class="text-alt"><small>Professor , Behavioural Sciences</small></p>
 					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -313,8 +332,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Sudhir Chandra Das</h3>
-					<p class="text-alt"><small>Professor of OB & HR,</small></p>
 					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
+						<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -322,16 +341,16 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Ashutosh Singh</h3>
-					<p class="text-alt"><small>Professor of OB & HR,</small></p>
 					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Dr. Banani Chakraborty</h3>
-					<p class="text-alt"><small>DNA Scientist</small></p>
 					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -345,8 +364,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. K. Chidananda Gowda</h3>
-					<p class="text-alt"><small>Former Vice-Chancellor,</small></p>
 					<p class="about">Kuvempu University, Karnataka.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -355,8 +374,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
-					<p class="text-alt"><small>Dean Human Affairs , IIITA</small></p>
 					<p class="about">Ph.D.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -365,8 +384,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Rajbir Singh</h3>
-					<p class="text-alt"><small>Professor , Behavioural Sciences</small></p>
 					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -375,8 +394,8 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Sudhir Chandra Das</h3>
-					<p class="text-alt"><small>Professor of OB & HR,</small></p>
 					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -384,16 +403,16 @@
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Ashutosh Singh</h3>
-					<p class="text-alt"><small>Professor of OB & HR,</small></p>
 					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="speaker">
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Dr. Banani Chakraborty</h3>
-					<p class="text-alt"><small>DNA Scientist</small></p>
 					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
+					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
 					
 				</div>
 			</div>
@@ -963,7 +982,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. K. Chidananda Gowda</h3>
 					<p class="about">Kuvempu University, Karnataka.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 					
 				</div>
 			</div>
@@ -973,7 +992,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
 					<p class="about">Ph.D.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 					
 				</div>
 			</div>
@@ -983,7 +1002,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Rajbir Singh</h3>
 					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 					
 				</div>
 			</div>
@@ -993,7 +1012,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Sudhir Chandra Das</h3>
 					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 					
 				</div>
 			</div>
@@ -1002,7 +1021,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Prof. Ashutosh Singh</h3>
 					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -1010,7 +1029,7 @@
 					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
 					<h3 class="name">Dr. Banani Chakraborty</h3>
 					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
-					<p class="text-alt"><a>Article</a></p>
+					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
 				</div>
 			</div>
 		</div>
@@ -1056,7 +1075,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="register" class="section overlay overlay-clr bg-cover bg4 light-text align-center">
+	<!-- <section id="register" class="section overlay overlay-clr bg-cover bg4 light-text align-center">
 		<div class="container">
 			<h2>Registration</h2>
 			<p><strong>1. Faculty Members from any Academic Institution<br />
@@ -1078,7 +1097,7 @@
 			<p><strong>*Registration:</strong><br /> The registration to this program will be through online mode only . <br> E-Certificates of FDP will be distributed via online mode.</p>
 				 
 		</div>
-	</section>
+	</section> -->
 	<!--
 	<section id="gallery" class="section align-center">
 		<div class="container">
@@ -1308,27 +1327,10 @@
 		</div>
 	</section> -->
 	
-	<section class="section align-center" style="padding-top: 0px;">
-		<div class="container" style="margin-top: 30px;">
-			<span class="icon section-icon icon-faces-users-04"></span>
-			<h3>Course Co-ordinator</h3>
-			<br />
-			<br />
-			<div class="col-sm-4"></div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profPA.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Dr. Pragya Singh</h3>
-					<p class="text-alt"><small>Assistant Professor</small></p>
-					<p class="about">Department of Management Studies, IIITA<br><strong>Email:</strong> pragyabhardwaj@iiita.ac.in<br><strong>Phone:</strong> 7897386365<br><strong>Profile:</strong> http://profile.iiita.ac.in/pragyabhardwaj/</p>
-				</div>
-			</div>
-			<div class="col-sm-4"></div>
-		</div>
-	</section>	
+
 	<section id="contacts" class="section align-center" style="padding-top: 0px;">	
-		<div class="container">
-			<!-- <span class="icon section-icon icon-faces-users-04"></span> -->
+		<div class="container" style="margin-top: 0px;">
+			<span class="icon section-icon icon-faces-users-04"></span>
 			<h3>Technical Committee</h3>
 			<br />
 			<br />
@@ -1547,6 +1549,7 @@
 	<script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
 	<script type="text/javascript" src="assets/js/modal-box.js"></script>
 	<script type="text/javascript" src="assets/js/ventcamp.js"></script>
+	<script type="text/javascript" src="assets/js/navbar.js"></script>
 </body>
 
 <!-- Mirrored from vivaco.com/demo/ventcamp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Aug 2020 05:32:40 GMT -->
