@@ -14,6 +14,12 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet" /> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/flickity.css" />
 
 </head>
 
@@ -203,7 +209,7 @@
 					<div class="counter-block counter-block-no-border">
 						<div class="counter-content">
 							<img src="assets/img/mail.svg" height="80px">
-							<a href="mailto:fapis2022@gmail.com" style="color: white;">fapis2022@gmail.com</a>
+							<a href="mailto:fap@iiita.ac.in" style="color: white;">fap@iiita.ac.in</a>
 							
 						</div>
 					</div>
@@ -311,189 +317,158 @@
 			<h3 style="padding-top: 50px;">Inaugral Session</h3>
 			<h5><a href="https://www.youtube.com/" style="color: #000; font-weight: 400;">Video Link</a></h5>
 			
-			<div class="slider">
-				<input type="radio" name="testimonial" id="t-1">
-				<input type="radio" name="testimonial" id="t-2">
-				<input type="radio" name="testimonial" id="t-3" checked>
-				<input type="radio" name="testimonial" id="t-4">
-				<input type="radio" name="testimonial" id="t-5">
-				<div class="testimonials">
-					<label class="item" for="t-1">
-						<img src="https://dummyimage.com/150" alt="picture">
-						<h3>Prof. John Doe</h3>
-						<p>IIIT Allahabad</p>
-						<h2><a href="https://www.google.com">Link</a></h2>
-					</label>
-					<label class="item" for="t-2">
-						<img src="https://dummyimage.com/150" alt="picture">
-						<h3>Prof. John Doe</h3>
-						<p>IIIT Allahabad</p>
-						<h2><a href="https://www.google.com">Link</a></h2>
-					</label>
-					<label class="item" for="t-3">
-						<img src="https://dummyimage.com/150" alt="picture">
-						<h3>Prof. John Doe</h3>
-						<p>IIIT Allahabad</p>
-						<h2><a href="https://www.google.com">Link</a></h2>
-					</label>
-					<label class="item" for="t-4">
-						<img src="https://dummyimage.com/150" alt="picture">
-						<h3>Prof. John Doe</h3>
-						<p>IIIT Allahabad</p>
-						<h2><a href="https://www.google.com">Link</a></h2>
-					</label>
-					<label class="item" for="t-5">
-						<img src="https://dummyimage.com/150" alt="picture">
-						<h3>Prof. John Doe</h3>
-						<p>IIIT Allahabad</p>
-						<h2><a href="https://www.google.com">Link</a></h2>
-					</label>
-				</div>
-				<div class="dots">
-					<label for="t-1"></label>
-					<label for="t-2"></label>
-					<label for="t-3"></label>
-					<label for="t-4"></label>
-					<label for="t-5"></label>
+			<!-- Carousel 1-->
+			<div class="carousel-container">
+				<div class="carousel my-carousel carousel--translate">
+				   <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" /><input class="carousel__activator" type="radio" name="carousel" id="G" /><input class="carousel__activator" type="radio" name="carousel" id="H" /><input class="carousel__activator" type="radio" name="carousel" id="I" /><input class="carousel__activator" type="radio" name="carousel" id="J" /><input class="carousel__activator" type="radio" name="carousel" id="K" />
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="K"></label><label class="carousel__control carousel__control--forward" for="G"></label></div>
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="F"></label><label class="carousel__control carousel__control--forward" for="H"></label></div>
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="G"></label><label class="carousel__control carousel__control--forward" for="I"></label></div>
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="H"></label><label class="carousel__control carousel__control--forward" for="J"></label></div>
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="I"></label><label class="carousel__control carousel__control--forward" for="K"></label></div>
+				   <div class="carousel__controls"><label class="carousel__control carousel__control--backward" for="J"></label><label class="carousel__control carousel__control--forward" for="F"></label></div>
+				   <div class="carousel__track">
+					<li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. F</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. G</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+					  <li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. H</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. I</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+					  <li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. J</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. K</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+				   </div>
+				   <div class="carousel__indicators"><label class="carousel__indicator" for="F"></label><label class="carousel__indicator" for="G"></label><label class="carousel__indicator" for="H"></label><label class="carousel__indicator" for="I"></label><label class="carousel__indicator" for="J"></label><label class="carousel__indicator" for="K"></label></div>
 				</div>
 			</div>
-
 			<br />
 			<br />
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. K. Chidananda Gowda</h3>
-					<p class="about">Kuvempu University, Karnataka.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
-					<p class="about">Ph.D.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Rajbir Singh</h3>
-					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Sudhir Chandra Das</h3>
-					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
-						<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Ashutosh Singh</h3>
-					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Dr. Banani Chakraborty</h3>
-					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
+			
 		</div>
 		<div class="container">
-		<h3 style="padding-top: 50px;">Closing Session</h3>
-			<h5><a style="color: #000; font-weight: 400;">Video Link</a></h5>
-			<br />
-			<br />
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. K. Chidananda Gowda</h3>
-					<p class="about">Kuvempu University, Karnataka.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
+			<h3 style="padding-top: 50px;">Closing Session</h3>
+				<h5><a style="color: #000; font-weight: 400;">Video Link</a></h5>
+				<br />
+				<br />
+				<!-- Carousel 2 -->
+				<div class="carousel-container2">
+					<div class="carousel2 my-carousel2 carousel--translate2">
+					   <input class="carousel__activator2" type="radio" name="carousel2" id="L" checked="checked" /><input class="carousel__activator2" type="radio" name="carousel2" id="M" /><input class="carousel__activator2" type="radio" name="carousel2" id="N" /><input class="carousel__activator2" type="radio" name="carousel2" id="O" /><input class="carousel__activator2" type="radio" name="carousel2" id="P" /><input class="carousel__activator2" type="radio" name="carousel2" id="Q" />
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="Q"></label><label class="carousel__control2 carousel__control--forward2" for="M"></label></div>
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="L"></label><label class="carousel__control2 carousel__control--forward2" for="N"></label></div>
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="M"></label><label class="carousel__control2 carousel__control--forward2" for="O"></label></div>
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="N"></label><label class="carousel__control2 carousel__control--forward2" for="P"></label></div>
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="O"></label><label class="carousel__control2 carousel__control--forward2" for="Q"></label></div>
+					   <div class="carousel__controls2"><label class="carousel__control2 carousel__control--backward2" for="P"></label><label class="carousel__control2 carousel__control--forward2" for="L"></label></div>
+					   <div class="carousel__track2">
+						<li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. F</h3>
+								<p class="about">Kuvempu University, Karnataka.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+							</div>
+						  </li>
+						  <li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. G</h3>
+								<p class="about">Ph.D.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+							</div>
+						  </li>
+						  <li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. H</h3>
+								<p class="about">Kuvempu University, Karnataka.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+							</div>
+						  </li>
+						  <li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. I</h3>
+								<p class="about">Ph.D.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+							</div>
+						  </li>
+						  <li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. J</h3>
+								<p class="about">Kuvempu University, Karnataka.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+							</div>
+						  </li>
+						  <li class="carousel__slide2">
+							<div class="speaker">
+								<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+								<h3 class="name">Prof. K</h3>
+								<p class="about">Ph.D.</p>
+								<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+							</div>
+						  </li>
+					   </div>
+					   <div class="carousel__indicators2"><label class="carousel__indicator2" for="L"></label><label class="carousel__indicator2" for="M"></label><label class="carousel__indicator2" for="N"></label><label class="carousel__indicator2" for="O"></label><label class="carousel__indicator2" for="P"></label><label class="carousel__indicator2" for="Q"></label></div>
+					</div>
 				</div>
-			</div>
 
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
-					<p class="about">Ph.D.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Rajbir Singh</h3>
-					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Sudhir Chandra Das</h3>
-					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Ashutosh Singh</h3>
-					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Dr. Banani Chakraborty</h3>
-					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
-					
-				</div>
-			</div>
 		</div>
 
 	</section>
 	<section class="section overlay overlay-clr bg-cover bg4 light-text align-center">
 		<div class="container">
-			<h2>Who Can Attend ?</h2>
-			<p> <strong >Faculty Members from all Academic Institutions.<br /><br /> 
+			<h4>Chaos theory's famous saying~</h4>
+			<br />
+			<p style="font-size: 20px;font-weight: 100;"> <strong>"A butterfly flaps its wings in the Amazonian jungle,<br /> and subsequently a storm ravages half of Europe."</strong></p>
+			<!-- <p> <strong >Faculty Members from all Academic Institutions.<br /><br /> 
 				Officers and Staff from all Academic Institutions.
 				<br /> <br /> 
 				Research Scholars  from all Academic Institutions.
 				<br /> <br /> 
 				Students  from all Academic Institutions. <br /><br>
 				Industry Professionals. 
-			</strong></p>
-			<br />
-			<br />
+			</strong></p> -->
 
 			<!-- <a href="#" class="btn btn-lg btn-outline">Register</a> -->
 		</div>
@@ -1039,59 +1014,66 @@
 			<img src="assets/img/paper-pen.svg" height="80px">
 			<h3 style="padding: 20px 0;">Invited Articles</h3>
 			<h5>Panelists</h5>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. K. Chidananda Gowda</h3>
-					<p class="about">Kuvempu University, Karnataka.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Uma Shanker Tiwary</h3>
-					<p class="about">Ph.D.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profR.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Rajbir Singh</h3>
-					<p class="about">Shree Guru Gobind Singh<br>Tricentenary University.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
-					
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profSC.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Sudhir Chandra Das</h3>
-					<p class="about">Department of Commerce,<Br>Banaras Hindu University, Varanasi.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
-					
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profA.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Prof. Ashutosh Singh</h3>
-					<p class="about">Govind Ballabh Pant University<br>Of Agriculture & Technology.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/profB.png" alt="John Doe" class="img-responsive"></div>
-					<h3 class="name">Dr. Banani Chakraborty</h3>
-					<p class="about">Department of Chemical Engineering,<br>IISc Bangalore.</p>
-					<p class="text-alt"><a href="https://www.youtube.com">Article</a></p>
+			<div class="carousel-container3">
+				<div class="carousel3 my-carousel3 carousel--translate3">
+				   <input class="carousel__activator3" type="radio" name="carousel3" id="R" checked="checked" /><input class="carousel__activator3" type="radio" name="carousel3" id="S" /><input class="carousel__activator3" type="radio" name="carousel3" id="T" /><input class="carousel__activator3" type="radio" name="carousel3" id="U" /><input class="carousel__activator3" type="radio" name="carousel3" id="V" /><input class="carousel__activator3" type="radio" name="carousel3" id="W" />
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="W"></label><label class="carousel__control3 carousel__control--forward3" for="S"></label></div>
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="R"></label><label class="carousel__control3 carousel__control--forward3" for="T"></label></div>
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="S"></label><label class="carousel__control3 carousel__control--forward3" for="U"></label></div>
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="T"></label><label class="carousel__control3 carousel__control--forward3" for="V"></label></div>
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="U"></label><label class="carousel__control3 carousel__control--forward3" for="W"></label></div>
+				   <div class="carousel__controls3"><label class="carousel__control3 carousel__control--backward3" for="V"></label><label class="carousel__control3 carousel__control--forward3" for="R"></label></div>
+				   <div class="carousel__track3">
+					<li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. F</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. G</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+					  <li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. H</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. I</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+					  <li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profK.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. J</h3>
+							<p class="about">Kuvempu University, Karnataka.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video link</a></p>	
+						</div>
+					  </li>
+					  <li class="carousel__slide3">
+						<div class="speaker">
+							<div class="photo-wrapper rounded"><img src="assets/img/speakers/profU.png" alt="John Doe" class="img-responsive"></div>
+							<h3 class="name">Prof. K</h3>
+							<p class="about">Ph.D.</p>
+							<p class="text-alt"><a href="https://www.youtube.com">Video Link</a></p>
+						</div>
+					  </li>
+				   </div>
+				   <div class="carousel__indicators3"><label class="carousel__indicator3" for="R"></label><label class="carousel__indicator3" for="S"></label><label class="carousel__indicator3" for="T"></label><label class="carousel__indicator3" for="U"></label><label class="carousel__indicator3" for="V"></label><label class="carousel__indicator3" for="W"></label></div>
 				</div>
 			</div>
 		</div>
@@ -1399,21 +1381,21 @@
 			<div class="col-sm-2"></div>
 			<div class="col-sm-4">
 				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/garvit.jpg" alt="John Doe" class="img-responsive" style="border:10px solid #BC1E2D; width: 220px;height: 220px;border-radius: 50%;"></div>
-					<h3 class="name">Garvit Chittora</h3>
-					<p class="text-alt"><small>BTech II Year ( IT ) IIITA</small></p>
-					<p class="about"><strong>Email:</strong> IIT2019142@iiita.ac.in<br><strong>Phone:</strong> 9509267434</p>
+					<div class="photo-wrapper rounded"><img src="assets/img/Shailesh.jpg" alt="Shailesh Tiwari" class="img-responsive" style="border:10px solid #BC1E2D; width: 220px;height: 220px;border-radius: 50%;"></div>
+					<h3 class="name">Shailesh Tiwari</h3>
+					<p class="text-alt"><small>BTech II Year ( ITBI ) IIITA</small></p>
+					<p class="about"><strong>Email:</strong> IIB2020001@iiita.ac.in<br><strong>Phone:</strong> 9335361459</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="speaker">
-					<div class="photo-wrapper rounded"><img src="assets/img/speakers/anip.png" alt="John Doe" class="img-responsive" style="border:10px solid #BC1E2D; width: 220px;height: 220px;border-radius: 50%;"></div>
-					<h3 class="name">Kumar Anip</h3>
-					<p class="text-alt"><small>BTech II Year ( EC ) IIITA</small></p>
-					<p class="about"><strong>Email:</strong> IEC2019007@iiita.ac.in<br><strong>Phone:</strong> 9709797402</p>
+					<div class="photo-wrapper rounded"><img src="assets/img/Manav.png" alt="Manav Agarwal" class="img-responsive" style="border:10px solid #BC1E2D; width: 220px;height: 220px;border-radius: 50%;"></div>
+					<h3 class="name">Manav Agarwal</h3>
+					<p class="text-alt"><small>BTech II Year ( ECE ) IIITA</small></p>
+					<p class="about"><strong>Email:</strong> IEC2020065@iiita.ac.in<br><strong>Phone:</strong> 8384031249</p>
 				</div>
 			</div>
-			<div class="col-sm-2"></div>
+			
 
 		</div>
 	</section>
@@ -1612,7 +1594,12 @@
 	<script type="text/javascript" src="assets/js/modal-box.js"></script>
 	<script type="text/javascript" src="assets/js/ventcamp.js"></script>
 	<script type="text/javascript" src="assets/js/navbar.js"></script>
+	<script type="text/javascript" href="assets/js/flickity.pkgd.js"></script>
+	<!-- <script src="assets/js/owl_carousel.js"></script> -->
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" ></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 </body>
 
-<!-- Mirrored from vivaco.com/demo/ventcamp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Aug 2020 05:32:40 GMT -->
 </html>
