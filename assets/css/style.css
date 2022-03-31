@@ -9034,3 +9034,8 @@ nav .nav-profile .profile-info p {
   background-size: cover;
   background-position: center;
 }
+
+/* BACKDROP */
+.backdrop_list{
+  list-style: decimal;
+}
