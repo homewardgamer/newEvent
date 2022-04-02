@@ -9039,3 +9039,19 @@ nav .nav-profile .profile-info p {
 .backdrop_list{
   list-style: decimal;
 }
+
+/* CONSORTIUM */
+@media (min-width: 900px) {
+  .consortium-img,.fin-model-img{
+    max-width: 80vw;
+  
+  }
+}
+@media (max-width: 900px) {
+  .consortium-img,.fin-model-img{
+    max-width: auto;
+  
+  }
+}
+
+
