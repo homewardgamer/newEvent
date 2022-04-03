@@ -7530,7 +7530,7 @@ nav .nav-profile {
   justify-content: flex-start;
   align-items: center;
   width: 80%;
-  margin: 0 auto 2em;
+  margin: 0 auto 0em;
 }
 nav .nav-profile img {
   width: 100px;
