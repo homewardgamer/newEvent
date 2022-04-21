@@ -6994,7 +6994,7 @@ button[type="submit"] .loading {
     Theme styles
 ---------------------------------------------------------------------------- */
 .bg1 {
-  background-image: url("http://www.industriall-union.org/sites/default/files/styles/article_top_image_w1440/public/uploads/images/General-pics/meeting_russia4.jpg?itok=jzsPnJqB");
+  background-image: url("../img/bg1.jpg");
 }
 .bg2 {
   background-image: url("http://www.industriall-union.org/sites/default/files/styles/article_top_image_w1440/public/uploads/images/General-pics/meeting_russia4.jpg?itok=jzsPnJqB");
@@ -7245,8 +7245,8 @@ button[type="submit"] .loading {
   }
   .hero-section,
   .hero-section > .container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
   }
 }
 @media (max-width: 480px) {
@@ -7334,6 +7334,8 @@ button[type="submit"] .loading {
 /*////////////////////////////////////////*/
 
 header {
+  position: absolute;
+  top: 0%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7354,7 +7356,7 @@ header .nav-link{
 
 }
 nav {
-  position: absolute;
+  position: absolute !important;
   top: 50%;
 }
 nav input[name="toggle-nav"], nav label[for="toggle-nav"] {
@@ -7429,12 +7431,12 @@ nav .side-nav-panel {
   transition: 0.5s left;
 }
 nav .top-nav {
-  max-height: 50vh;
+  /* max-height: 50vh; */
   overflow-y: auto;
 }
 @media (max-height: 540px) {
   nav .top-nav {
-    max-height: 30vh;
+    /* max-height: 30vh; */
  }
 }
 nav .top-nav a:link, nav .top-nav a:visited {
@@ -7455,12 +7457,14 @@ nav .top-nav > li {
   border-bottom-right-radius: 10px;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.2s;
 }
 nav .top-nav > li:hover, nav .top-nav > li:active, nav .top-nav > li:focus, nav .top-nav > li.active {
-  background-color: #fcfcfc;
+  background-color: #fcfcfc;  
 }
 nav .top-nav > li:hover a:link, nav .top-nav > li:active a:link, nav .top-nav > li:focus a:link, nav .top-nav > li.active a:link, nav .top-nav > li:hover a:visited, nav .top-nav > li:active a:visited, nav .top-nav > li:focus a:visited, nav .top-nav > li.active a:visited {
   color: #3c3c3c;
+  text-decoration: none;
 }
 nav .top-nav > li a {
   display: block;
