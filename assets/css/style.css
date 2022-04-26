@@ -7352,9 +7352,7 @@ header .header-logo {
   text-align: center;
   /* align-self: center; */
 }
-header .nav-link{
 
-}
 nav {
   position: absolute !important;
   top: 50%;
@@ -7581,13 +7579,14 @@ nav .nav-profile .profile-info p {
 
 .nav-links{
   display: flex;  
-  justify-content: center;
+  justify-content: end;
   margin-left: 80px;
   width: 100vw;
 }
 .nav-link{
   font-size: 20px;
   padding-right: 20px;
+  text-decoration: none !important;
 }
 
 .sticky {
@@ -9159,9 +9158,14 @@ table{margin-left:auto;margin-right:auto;}
   z-index: 9999;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #333232;
   overflow-x: hidden;
   padding-top: 20px;
+}
+.sidenav .sidenav_heading {
+  font-size: 25px;
+  color: #fe6137;
+  cursor: default;
 }
 
 .sidenav a {
@@ -9185,4 +9189,9 @@ table{margin-left:auto;margin-right:auto;}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.center{
+  display: flex;
+  justify-content: center;
 }
